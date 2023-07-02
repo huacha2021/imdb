@@ -1,0 +1,3 @@
+requests
+cassandra-driver
+oracledb
