@@ -23,7 +23,7 @@ while True:
         sleep(10)
         continue
 
-# Hacky function because apparently some values weren't being parsed correctly 🙃
+# Hacky function because apparently some values weren't being parsed correctly 
 def to_num_or_null(value, is_float=False):
     if value == '\\N' or value == None:
         return None
